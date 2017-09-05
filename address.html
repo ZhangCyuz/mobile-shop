@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta charset="utf-8">
+    <title>mobile-shop-address</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/address.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="javascript:history.back();" class="back"><</a>
+      <div class="my">我的收货地址</div>
+      <a href="#" class="menu">...</a>
+    </header>
+    <section class="order-page">
+      <span class="management">选择地址</span>
+      <div class="address" id="address">
+        <div class="zzz" id="zzz">
+
+        </div>
+      </div>
+      <span id="addUserAddress">新增</span>
+    </section>
+    <section class="layer">
+      <div class="dialog">
+        <h2>新增收货人信息<span>X</span></h2>
+        <form>
+          <i class="dialog-i">收货地址</i><input type="text" name="address_name" placeholder="请输入收货地址" value=""><br />
+          <i class="dialog-i">收货人</i><input type="text" name="consignee" placeholder="请输入收货人" value=""><br />
+          <i class="dialog-i">城市</i><input type="text" name="city" placeholder="请输入您所在的城市" value=""><br />
+          <i class="dialog-i">手机</i><input type="text" name="mobile" placeholder="请输入手机号" value=""><br />
+          <input type="button" id="add" name="" value="保存收货人信息" class="add">
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="#">分类</a></li>
+        <li><a href="cart.html">购物车</a></li>
+        <li><a href="my.html">我的</a></li>
+      </ul>
+    </footer>
+  </body>
+  <script src="scripts/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="scripts/style.js" charset="utf-8"></script>
+  <script src="scripts/address.js" charset="utf-8"></script>
+</html>

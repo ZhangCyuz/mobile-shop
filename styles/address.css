@@ -1,0 +1,170 @@
+.header {
+  width: 100%;
+  height: 4rem;
+  background: #fff;
+}
+.header .back {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  float: left;
+  font-size: 2rem;
+}
+.header .my {
+  width: calc(100% - 8rem);
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  float: left;
+  font-size: 1.8rem;
+}
+.header .menu {
+  position: relative;
+  float: right;
+  width: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.order-page {
+  position: relative;
+  width: 100%;
+}
+
+.management {
+  display: inline-block;
+  width: 9rem;
+  line-height: 30px;
+  font-size: 1.2rem;
+  text-align: center;
+  float: left;
+  color: #fff;
+  background: #ff4500
+}
+#addUserAddress {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  float: right;
+  width: 3rem;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background: #ff4500
+}
+#addUserAddress:hover {
+  background: black;
+  color: white;
+}
+.layer {
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: absolute;
+  top: 4rem;
+}
+.dialog {
+  width: 80%;
+  height: 30rem;
+  margin: 2rem 10%;
+  text-align: center;
+  background: #fff;
+  position: relative;
+}
+.dialog .dialog-i {
+  display: inline-block;
+  width: 90px;
+  line-height: 30px;
+  text-align: center;
+  margin: 3px 0;
+}
+.dialog h2 {
+  line-height: 30px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  color: red;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.dialog h2 span {
+  display: inline-block;
+  float: right;
+  padding: 0px 10px;
+  background: orange;
+  cursor: pointer;
+}
+.add {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.add:hover {
+  background: orange;
+  color: #fff;
+}
+.payment {
+  width: 500px;
+  height: 80px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.payment span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid gray;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+.payment span:hover {
+  background: black;
+  color: white;
+}
+.order {
+  width: 200px;
+  line-height: 40px;
+  background: red;
+  float: right;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.address {
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  overflow: hidden;
+  border-bottom: 1px solid gray;
+}
+.address-item {
+  line-height: 30px;
+  font-size: 16px;
+  border-top: 1px solid gray;
+}
+#total {
+  margin-left: 90px;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.fl {
+  float: left;
+  margin-top: 10px;
+}

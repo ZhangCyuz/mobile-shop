@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta charset="utf-8">
+    <title>mobile-shop-register</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/register.css">
+  </head>
+  <body>
+    <header class="login-head">
+      <div class="in">
+        <a href="index.html"><</a>
+      </div>
+      <span>注 册</span>
+      <div class="reg" ><a href="login.html">请登录</a></div>
+    </header>
+    <div class="sec-bg">
+      <div class="form">
+        <div class="user">
+          用户名
+        </div>
+        <input type="text" name="username" placeholder="您的账户名和登录名" class="user-input" id="username"><br><em id="user-tip1" class="tip"></em>
+        <div class="pwd">
+          设置密码
+        </div>
+        <input type="password" name="password" placeholder="建议至少使用两种字符组合" class="pwd-input"><em id="user-tip2" class="tip"></em>
+        <div class="pwd">
+          确认密码
+        </div>
+        <input type="password" name="password1" placeholder="请再次输入密码" class="pwd-input"><em id="user-tip3" class="tip"></em>
+        <input type="button" id="register" name="" value="立即注册" class="register">
+      </div>
+    </div>
+  </body>
+  <script src="scripts/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="scripts/style.js" charset="utf-8"></script>
+  <script src="scripts/register.js" charset="utf-8"></script>
+</html>

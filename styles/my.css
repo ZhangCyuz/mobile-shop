@@ -1,0 +1,153 @@
+.header {
+  width: 100%;
+  height: 4rem;
+  background: #fff;
+}
+.header .back {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  float: left;
+  font-size: 2rem;
+}
+.header .my {
+  width: calc(100% - 8rem);
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  float: left;
+  font-size: 1.8rem;
+}
+.header .menu {
+  position: relative;
+  float: right;
+  width: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.login-list {
+  position: absolute;
+  top: 4rem;
+  right: 0%;
+  width: 260%;
+  height: 12rem;
+  background: #fff;
+  font-size: 1.2rem;
+  display: none;
+}
+.login-list {
+  background: #f6f6f6;
+}
+.login-list a {
+  color: black;
+}
+.content {
+  width: 100%;
+}
+.user-basic {
+  width: 100%;
+  height: 7rem;
+  background: url(../images/user-bg.png);
+  background-size: 100% 100%;
+}
+.login-link {
+  display: inline-block;
+  height: 2.3rem;
+  border: 1px solid #fff;
+  margin: 2.5rem 5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.user-stat {
+  margin-top: 5px;
+  width: 100%;
+  height: 4rem;
+  background: #fff;
+}
+.user-stat a {
+  display: inline-block;
+  width: 33.333333%;
+  height: 2rem;
+}
+.footprint {
+  float: left;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  color: black;
+}
+.Collection {
+  float: left;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  color: black;
+}
+.follow {
+  float: left;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  color: black;
+}
+.order {
+  margin-top: 5px;
+  width: 100%;
+}
+.order-my {
+  width: 100%;
+  height: 2.5rem;
+  background: #fff;
+  line-height: 2rem;
+}
+.order-my .slide-link {
+  display: inline-block;
+  width: 8rem;
+  height: 2rem;
+  line-height: 2.5rem;
+  float: left;
+  text-align: center;
+}
+.order-my .slide-link img {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+.order-my em {
+  float: right;
+  width: 10rem;
+  height: 2.5rem;
+  text-align: right;
+  padding-right: 5px;
+  color: gray;
+  line-height: 2.5rem;
+  font-size: 0.8rem;
+}
+.order-nav {
+  margin-top: 5px;
+  width: 100%;
+  height: 6rem;
+  background: #fff;
+}
+.order-nav ul {
+  width: 100%;
+  height: 100%;
+}
+.order-nav ul li {
+  float: left;
+  width: 33.33333%;
+  height: 100%;
+  text-align: center;
+  line-height: 2rem;
+}
+.order-nav ul li img {
+  margin-top: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}

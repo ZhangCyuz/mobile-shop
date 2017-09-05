@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta charset="utf-8">
+    <title>mobile-shop-my</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/my.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="javascript:history.back();" class="back"><</a>
+      <div class="my">我的</div>
+      <span class="menu">...
+        <div class="login-list">
+					<p><a href="address.html">我的地址</a></p>
+					<p>修改资料</p>
+					<p id="logout">退出登录</p>
+      	</div>
+      </span>
+    </header>
+    <section class="content">
+      <div class="user-basic">
+        <a class="login-link" href="login.html" id="login">登录/注册</a>
+      </div>
+      <section class="user-stat">
+        <a class="Collection" href="#">
+          <em>0</em><br>收藏的商品
+        </a>
+        <a class="follow" href="#">
+          <em>0</em><br>关注的店铺
+        </a>
+        <a class="footprint" href="#">
+          <em>0</em><br>我的足迹
+        </a>
+      </section>
+    <section class="order">
+      <div class="order-my">
+        <a class="slide-link" href="order.html">
+          <img src="images/my-order.png"> 我的订单
+        </a>
+        <em>查看全部购买商品 ></em>
+      </div>
+      <nav class="order-nav">
+        <ul>
+          <li>
+            <img src="images/my-cart.png" alt=""><br>
+            <a href="#" class="pd-pay">待付款</a>
+          </li>
+          <li>
+            <img src="images/my-shouhuo.png" alt=""><br>
+            <a href="#" class="pd-pay">待收货</a>
+          </li>
+          <li>
+            <img src="images/my-return.png" alt=""><br>
+            <a href="#" class="pd-pay">退换货</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </section>
+  <footer class="footer">
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="#">分类</a></li>
+      <li><a href="cart.html">购物车</a></li>
+      <li><a href="my.html">我的</a></li>
+    </ul>
+  </footer>
+</body>
+  <script src="scripts/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="scripts/style.js" charset="utf-8"></script>
+  <script src="scripts/my.js" charset="utf-8"></script>
+</html>
